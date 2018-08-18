@@ -17,10 +17,10 @@ Training without GAN:
     $ python main.py --dataset=dataset_name
 
 Training with GAN:
-    $ python main.py --dataset=dataset_name
-    $ CUDA_VISIBLE_DEVICES=2 python main_d2.py --dataset img_align_celeba --is_trainwithGAN True
+
+    $ python main.py --dataset img_align_celeba --is_trainwithGAN True
 Testing:
 
-    $
+    $ python main.py --is_train False --dataset img_align_celeba_test --load_path logs/img_align_celeba_2018-08-13_13-50-12
 
 

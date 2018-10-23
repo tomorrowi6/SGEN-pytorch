@@ -13,8 +13,9 @@ You first need to download the CelebA dataset from [website](http://mmlab.ie.cuh
 
 ## Training without GAN:
 
-    $ python main.py --dataset=img_align_celeba 
-    $ python main.py --dataset=dataset_name
+    $ python main.py --dataset=dataset_name 
+    For example
+    $ python main.py --dataset=img_align_celeba
 
 ## Training with GAN:
 
